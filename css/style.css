@@ -16,8 +16,9 @@ ol {
 }
 /*layout*/
 .container {
-    max-width: 1024px;
-    padding:0 2rem;
+    max-width: 1124px;
+    margin:0 auto;
+    padding:0 1rem;
 }
 /*header*/
 header h1 {
@@ -32,11 +33,43 @@ header h1 {
     header h1 {
         text-align: left;
         padding-left: 20px;
+
     }
+    
 
 
 }
 
 /*hero*/
+.hero {
+    background-color: rgba(246, 245, 243, 1);
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.hero .container .row .col > p {
+    font-size: 12px;
+    color: grey;
+    margin-bottom:15px;
+}
+.hero .container .row .col > h1 {
+    color:rgba(78, 57, 105, 1);
+    font-size: 2rem;
+
+}
+.card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.row-card {
+    flex-basis: 100%;
+}
+.col .card {
+    background-color: white;
+}
+
+
 
 
