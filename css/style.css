@@ -1,0 +1,42 @@
+/*reset*/
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol {
+    list-style: none;
+}
+/*layout*/
+.container {
+    max-width: 1024px;
+    padding:0 2rem;
+}
+/*header*/
+header h1 {
+    font-family: "Nerko One", system-ui;
+    color: rgba(255, 150, 20, 1);
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+@media (min-width:768px) {
+    header h1 {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+
+}
+
+/*hero*/
+
+
