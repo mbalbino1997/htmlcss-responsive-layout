@@ -28,6 +28,7 @@ header h1 {
     text-align: center;
     padding-top:10px;
     padding-bottom:10px;
+    text-wrap:nowrap;
 }
 
 
@@ -59,6 +60,10 @@ body {
 }
 .row-card {
     flex-basis: 100%;
+    
+}
+.row-card.col-4 {
+    padding: 10px;
 }
 .col .card {
     background-color: white;
@@ -75,7 +80,7 @@ body {
     padding:10px 0px;
 }
 .ul-logo > li {
-    padding: 10px;
+    padding: 5px;
     background-color: white;
     border-radius: 999px;
 }
@@ -124,10 +129,7 @@ body {
     .hero .container .row .col > p {
         padding-top: 40px;
     }
-    .ul-logo li span {
-        display: inline;
-    }
-
+    
 
 
 }
@@ -149,6 +151,10 @@ body {
     .hero .container .row .col > .responsive-h1 {
         margin-bottom:30px;
     }
+    .ul-logo li span {
+        display: inline;
+    }
+
 }
 
 
