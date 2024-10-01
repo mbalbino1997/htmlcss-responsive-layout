@@ -138,7 +138,7 @@ body {
         
         column-gap: 148px;
         row-gap: 20px;
-
+        
     }
     .ul.card > li {
         flex-grow:1;
