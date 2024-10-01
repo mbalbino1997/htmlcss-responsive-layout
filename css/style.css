@@ -69,6 +69,19 @@ body {
 .ul-card > li {
     margin-bottom:10px;
 }
+.ul-logo {
+    display: flex;
+    justify-content: space-between;
+    padding:10px 0px;
+}
+.ul-logo > li {
+    padding: 10px;
+    background-color: white;
+    border-radius: 999px;
+}
+.ul-logo li span {
+    display: none;
+}
 
 
 
@@ -107,6 +120,12 @@ body {
         display: inline-block;
         padding: 10px;
         flex-basis:33.33%;
+    }
+    .hero .container .row .col > p {
+        padding-top: 40px;
+    }
+    .ul-logo li span {
+        display: inline;
     }
 
 
